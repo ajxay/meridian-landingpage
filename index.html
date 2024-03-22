@@ -136,15 +136,18 @@
                   <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./service.html">Services</a>
+                  <a class="nav-link" href="#benefits">Benefits</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./projects.html">Projects</a>
+                  <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
-                <li class="nav-space nav-item dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <!-- <li class="nav-space nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle dropdown-color navbar-text-color"
                     href="#"
@@ -170,12 +173,10 @@
                       </li>
                     </ul>
                   </div>
-                </li>
-                <li class="nav-space nav-item">
-                  <a class="nav-link" href="./contact.html">Contact us</a>
-                </li>
+                </li> -->
+                <!-- TODO: popup for contact us -->
                 <li class="nav-item">
-                  <a class="nav-link lets_talk" href="./contact.html"
+                  <a class="nav-link lets_talk" href="#faq"
                     >Let's Talk<i class="circle fa-regular fa-angle-right"></i
                   ></a>
                 </li>
@@ -197,16 +198,14 @@
           <div class="row">
             <div class="col-lg-7 col-md-12 col-sm-12 col-12">
               <div class="banner_content">
-                <p class="text-white">
+                <p style="margin-bottom: 2em" class="text-white">
                   Unlock the Power of AI with M365 Copilot Add-On
                 </p>
                 <h1 class="text-white">
                   Optimize Your Business with Microsoft 365 Copilot Plan Today !
                 </h1>
-                <div class="banner-button">
-                  <a
-                    class="button1 lets_talk text-decoration-none"
-                    href="./about.html"
+                <div class="banner-button" style="margin-top: 2em">
+                  <a class="button1 lets_talk text-decoration-none" href="#faq"
                     >Get Started<i class="circle fa-regular fa-angle-right"></i
                   ></a>
                 </div>
@@ -253,7 +252,7 @@
               </figure>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div id="about" class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <div class="aboutus_content" data-aos="fade-right">
               <!-- <h6>
 
@@ -462,6 +461,7 @@
       </div>
     </section>
     <section
+      id="benefits"
       class="services_section services_service_section position-relative"
     >
       <div class="container">
@@ -469,7 +469,7 @@
           <div class="col-lg-5 col-md-5 col-sm-12 col-12">
             <div class="services_content">
               <!-- <h6>What We Can Do</h6> -->
-              <h2>Your Daily AI Companion</h2>
+              <h2 style="margin-bottom: 4em">Your Daily AI Companion</h2>
             </div>
           </div>
           <div
@@ -669,7 +669,7 @@
         </figure>
       </div>
     </section>
-    <div class="pricing-area pt-100 pb-100 section-bg">
+    <div id="pricing" class="pricing-area pt-100 pb-100 section-bg">
       <div class="container">
         <div class="section-title-center">
           <div class="width">
@@ -1103,7 +1103,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+          <div id="faq" class="col-lg-6 col-md-12 col-sm-12 col-12">
             <div class="need-section">
               <div class="need_content">
                 <h3>Request a Demo</h3>
@@ -1190,7 +1190,10 @@
           />
         </figure>
         <div class="middle-portion">
-          <div class="row">
+          <div
+            class="row"
+            style="display: flex; justify-content: space-between"
+          >
             <div class="col-lg-4 col-md-5 col-sm-6 col-12">
               <a href="./index.html">
                 <figure class="footer-logo">
@@ -1201,10 +1204,11 @@
                   />
                 </figure>
               </a>
-              <p class="text-size-16 footer-text text-white">
+              <!-- <p class="text-size-16 footer-text text-white">
                 Ruis aute irure dolor in reprehenderit in volu velit ese ciu
                 nulla pariatur excepteur sint oc aecat curidatat nona...
-              </p>
+              </p> -->
+              <div style="height: 5em"></div>
               <ul class="list-unstyled mb-0 social-icons">
                 <li class="circle">
                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -1217,7 +1221,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-12 col-12 d-md-block d-none">
+            <!-- <div class="col-lg-2 col-md-3 col-sm-12 col-12 d-md-block d-none">
               <div class="links">
                 <h4 class="heading text-white">Useful Links</h4>
                 <ul class="list-unstyled mb-0">
@@ -1238,7 +1242,7 @@
                   <li>
                     <i class="fa-solid fa-angle-right"></i
                     ><a href="" class="text-size-16 text text-decoration-none"
-                      >Services</a
+                      >Benefits</a
                     >
                   </li>
                   <li>
@@ -1255,8 +1259,8 @@
                   </li>
                 </ul>
               </div>
-            </div>
-            <div class="col-lg-3 col-md-2 col-sm-12 col-12 d-lg-block d-none">
+            </div> -->
+            <!-- <div class="col-lg-3 col-md-2 col-sm-12 col-12 d-lg-block d-none">
               <div class="links list-pd">
                 <h4 class="heading text-white">Our Services</h4>
                 <ul class="list-unstyled mb-0">
@@ -1292,7 +1296,7 @@
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-sm-block">
               <div class="icon">
                 <h4 class="heading text-white">Contact us</h4>
@@ -1381,7 +1385,8 @@
           <div class="row">
             <div class="col-12">
               <p class="mb-0 text-white">
-                Copyright 2023, Artelligence.com All Rights Reserved.
+                Copyright &copy; 2024, Meridian Solutions Pvt. Ltd. All Rights
+                Reserved.
               </p>
             </div>
           </div>

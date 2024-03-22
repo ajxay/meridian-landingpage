@@ -765,6 +765,7 @@ p {
   color: var(--e-global-color-white);
 }
 .statistics_section .statistics_box {
+  margin-bottom: 2em;
   background-color: #4229d6;
   padding: 38px 40px 35px 39px;
   border-radius: 20px;
