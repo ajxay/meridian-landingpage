@@ -353,7 +353,7 @@ p {
 /* ----------------new about us------------------- */
 
 .aboutus_section {
-  padding: 150px 0;
+  padding: 150px 0 0 0;
   background-color: #000;
   overflow: hidden;
 }
@@ -673,8 +673,8 @@ p {
   line-height: 28px;
   color: #c2c0c0;
   margin-bottom: 22px;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 200;
 }
 .hover-effect {
   transition: all 0.3s ease-in-out;
